@@ -8,22 +8,22 @@ export default function Works() {
       id: "1",
       icon: "./assets/mobile.png",
       title: "Web Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+      desc: "React is a JavaScript library used to build user interfaces on the frontend. it's one of the most popular JavaScript libraries, with over 180,000 stars on Github. The goal of React is to allow developers to quickly build out their interfaces",
+      img: "./assets/web.jfif",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
       title: "Mobile Application",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img: "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+      desc: "It is efficient, flexible, and intuitive. As a result. It supports the responsive layout for all modern devices, including smartphones, laptops, and desktops. Therefore, you can create your mobile app using React JS.",
+      img: "./assets/mobile.gif",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
       title: "Branding",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img: "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+      desc: "Personal branding, simply explained, is marketing yourself as a professional, adapting your portfolio and social media to reflect your skills and expertise, and positioning yourself as an important individual within a particular industry.",
+      img: "./assets/angvsreact.jpg",
     },
   ];
 
@@ -53,10 +53,7 @@ export default function Works() {
                 </div>
               </div>
               <div className="right">
-                <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
-                  alt=""
-                />
+                <img src={d.img} alt="" />
               </div>
             </div>
           </div>
